@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    background-color: blanchedalmond;
+    padding: 2rem;
+    border-radius: 5%;
+    box-shadow: 5px 5px rgb(70, 54, 82);
+    min-height: 50vh;
+    width: 45vh;
+    
+}
+#grad {
+    background-image: linear-gradient(to bottom right, rgb(211, 158, 241), rgb(77, 24, 107));
+}
+
+h2{
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    color: rgb(57, 22, 92);
+
+}
+
+form{
+    margin: 2rem 0 2rem 0;
+}
+
+form input,select,button{
+    width:100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input{
+    border: 1px solid rgb(89, 30, 128);
+    font-size: 15px;
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height:25px;
+    height:2rem;
+    background-color: rgb(232, 225, 238);
+
+}
+
+#inp{
+    font-size: 18px;
+}
+
+.dropdown{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+  /* margin-left: 5px; */
+    max-width: 30px;
+
+}
+.select-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 217, 240);
+    border-radius: 10px;
+    margin:10px;
+    border: 1px solid rgb(82, 24, 129);
+
+}
+
+i{
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+select{
+    font-size: 14px;
+    width:auto;
+}
+
+.msg{
+    margin-top:20px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+button{
+    height: 40px;
+    background-color: rgb(117, 65, 165);
+    color:aliceblue;
+    font-size: 0.95rem;
+    cursor: pointer;
+    font-weight: 600;
+    border: 1px solid rgb(88, 29, 122)
+    
+}
+button:hover {
+    background-color: #d0a3eb;
+    color: rgb(0, 0, 0);
+}
